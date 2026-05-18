@@ -83,6 +83,12 @@ Final optimized Random Forest model achieved improved prediction performance on 
 - Joblib
 
 ---
+## How to Run
+
+1. Clone the repository
+2. Install required libraries
+3. Open the notebook in Google Colab or Jupyter Notebook
+4. Run all cells sequentially
 
 ## Project Status
 
