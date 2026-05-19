@@ -38,6 +38,7 @@ This project focuses on handwritten digit classification using machine learning 
 - Precision and recall
 - Confusion matrix
 - ROC curves
+- ROC-AUC curves
 
 ### Algorithms Used
 - SGD Classifier
