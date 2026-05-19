@@ -1,75 +1,47 @@
-# California Housing Price Prediction
+# Machine Learning Projects
 
-## Project Description
-This project focuses on predicting California housing prices using machine learning techniques.  
-The workflow includes:
+This repository contains hands-on machine learning projects implemented while studying machine learning concepts, preprocessing pipelines, feature engineering, classification, and model evaluation techniques.
 
+---
+
+# Projects
+
+## 1. California Housing Price Prediction
+
+### Project Description
+This project focuses on predicting California housing prices using machine learning techniques.
+
+### Concepts Covered
 - Data preprocessing
 - Feature engineering
-- Exploratory data analysis
-- Pipeline construction
-- Model training
+- Pipelines
+- Regression models
 - Hyperparameter tuning
-- Final evaluation
+- Model evaluation
 
----
-
-## Dataset Explanation
-The dataset contains housing-related information from California districts, including:
-
-- Median income
-- Population
-- Total rooms
-- Total bedrooms
-- Ocean proximity
-- Housing median age
-- Number of households
-
-### Target Variable
-- `median_house_value`
-
----
-
-## Machine Learning Algorithms Used
-
+### Algorithms Used
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 
 ---
 
-## Feature Engineering Techniques
+## 2. MNIST Classification Project
 
-The project includes:
+### Project Description
+This project focuses on handwritten digit classification using machine learning classification algorithms.
 
-- Room-per-household ratio
-- Bedroom ratio
-- People-per-household ratio
-- Log transformations
-- Cluster similarity features
+### Concepts Covered
+- Binary classification
+- Multiclass classification
+- Performance metrics
+- Precision and recall
+- Confusion matrix
+- ROC curves
 
----
-
-## Preprocessing Techniques
-
-- Missing value imputation
-- Standard scaling
-- One-hot encoding
-- Pipelines using Scikit-Learn
-- ColumnTransformer
-
----
-
-## Model Evaluation
-
-The models were evaluated using:
-
-- RMSE (Root Mean Squared Error)
-- Cross-validation
-- GridSearchCV
-- RandomizedSearchCV
-
-Final optimized Random Forest model achieved improved prediction performance on the test dataset.
+### Algorithms Used
+- SGD Classifier
+- Random Forest Classifier
 
 ---
 
@@ -80,16 +52,4 @@ Final optimized Random Forest model achieved improved prediction performance on 
 - NumPy
 - Matplotlib
 - Scikit-Learn
-- Joblib
-
----
-## How to Run
-
-1. Clone the repository
-2. Install required libraries
-3. Open the notebook in Google Colab or Jupyter Notebook
-4. Run all cells sequentially
-
-## Project Status
-
-This project was developed as part of hands-on machine learning practice and learning.
+- Jupyter Notebook / Google Colab
